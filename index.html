@@ -1,35 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Registration Form</title>
+    <title>Mvumilivu Online Store</title>
 </head>
 <body>
-
-<h3>Registration Form</h3>
-
-<form>
-
-Name: <input type="text" name="name"><br><br>
-
-Email: <input type="email" name="email"><br><br>
-
-Password: <input type="password" name="password"><br><br>
-
-Gender:
-<input type="radio" name="gender"> Male
-<input type="radio" name="gender"> Female<br><br>
-
-Course:
-<select>
-<option>Computer Science</option>
-<option>Information Technology</option>
-<option>Business</option>
-</select><br><br>
-
-<input type="submit" value="Register">
-<input type="reset" value="Clear">
-
-</form>
-
+    <h1 align="center">Mvumilivu Online Store</h1>
+    <p align="center">
+        Welcome to <b>Mvumilivu Online Store</b>, your trusted online shop offering a wide
+        variety of quality products including electronics and furniture at affordable prices.
+        We are committed to providing reliable products and excellent customer service.
+    </p>
+    <hr>
+    <h2>Available Products</h2>
+    <table border="2" cellpadding="10" cellspacing="0" width="100%">
+        <tr>
+            <th>Product Image</th>
+            <th>Product Name</th>
+            <th>Category</th>
+            <th>Quantity</th>
+            <th>Price (Ksh)</th>
+        </tr>
+        <tr>
+            <td align="center">
+                <img src="images/laptoppro.jpeg" alt="Laptop" width="60" height="60">
+            </td>
+            <td>Laptop Pro</td>
+            <td rowspan="2">Electronics</td>
+            <td align="center">10</td>
+            <td align="right">75,000</td>
+        </tr>
+        <tr>
+            <td align="center">
+                <img src="/images/smartx.jpeg" alt="Smartphone" width="60" height="60">
+            </td>
+            <td>Smart X</td>
+            <td align="center">15</td>
+            <td align="right">40,000</td>
+        </tr>
+        <tr>
+            <td align="center">
+                <img src="/images/office-chair.jpg" alt="Office Chair" width="60" height="60">
+            </td>
+            <td>Office Chair</td>
+            <td rowspan="2">Furniture</td>
+            <td align="center">5</td>
+            <td align="right">12,000</td>
+        </tr>
+        <tr>
+            <td align="center">
+                <img src="/images/dinningtable.jpeg" alt="Dining Table" width="60" height="60">
+            </td>
+            <td>Dining Table</td>
+            <td align="center">3</td>
+            <td align="right">35,000</td>
+        </tr>
+        <tr>
+            <td colspan="3"><b>TOTAL PRODUCTS</b></td>
+            <td align="center"><b>33</b></td>
+            <td align="right"><b>157,000</b></td>
+        </tr>
+    </table>
+    <h2>Our Location</h2>
+    <p>Visit us at our physical store location shown on the map below:</p>
+    <iframe
+        src="https://www.google.com/maps?q=Nairobi,Kenya&output=embed"
+        width="100%"
+        height="300"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
 </body>
 </html>
